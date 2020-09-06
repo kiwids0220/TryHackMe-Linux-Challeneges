@@ -13,7 +13,7 @@ Password: letmein
 
 How many visible files can you see in garrys home directory?
 
-
+![Image of Yaktocat](https://github.com/kiwids0220/TryHackMe-Linux-Challeneges/blob/master/ssh.png)
 
 
 
