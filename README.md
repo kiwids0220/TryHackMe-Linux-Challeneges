@@ -42,8 +42,10 @@ there we go, now we can use “cd” which stands for change directory to move o
 #3 flag3 
 
 for flag3, we need to find the bash history of bob. Where do we find that? Try google it!  (HINT: try use ‘ls -la’) 
+![linux](https://github.com/kiwids0220/TryHackMe-Linux-Challeneges/blob/master/t3.png)
 
 #4  Flag4 is about Cronjob. Well, with googling, we will be able to know where the cronjob list is stored. 
+![linux](https://github.com/kiwids0220/TryHackMe-Linux-Challeneges/blob/master/t4.png)
 
 #5 flag5 is the same as previous find. so no more talk over that.
 
@@ -52,10 +54,10 @@ for flag3, we need to find the bash history of bob. Where do we find that? Try g
 #7. look at the system processes. With googling, we know we can use command ‘px aux’ to check the system process.
 
 #8. Try to read “tar” manual for the details. 
-
-
+![linux-tar](https://github.com/kiwids0220/TryHackMe-Linux-Challeneges/blob/master/t8.png)
 
 #9 find the hosts, it is referring the hosts record in /etc directory. 
+![linux-hosts](https://github.com/kiwids0220/TryHackMe-Linux-Challeneges/blob/master/t9.png)
 
 #10, find the other users in the system. Linux stores all its user:group in /etc/passwd
 
