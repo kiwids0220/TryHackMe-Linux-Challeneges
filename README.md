@@ -12,8 +12,8 @@ Username: garry
 Password: letmein
 
 How many visible files can you see in garrys home directory?
-
-![Image of Yaktocat](https://github.com/kiwids0220/TryHackMe-Linux-Challeneges/blob/master/ssh.png)
+![t1.1] (https://github.com/kiwids0220/TryHackMe-Linux-Challeneges/blob/master/t1.1.png)
+![ssh] (https://github.com/kiwids0220/TryHackMe-Linux-Challeneges/blob/master/ssh.png)
 
 
 
@@ -28,6 +28,7 @@ Task 2:
 #1 What is flag 1? 
 
 Answer: as we know, command “ls” can be used to display the current files within the current working directories. And we can use “cat” to read a .txt file and output the texts. So the result will be shown below.
+![linux] (https://github.com/kiwids0220/TryHackMe-Linux-Challeneges/blob/master/t2.1.png)
 
 #2 what is flag2 (just a reminder, I will not be going over the command mentioned in previous questions. Ex. ls, cat…
 
@@ -36,6 +37,7 @@ For task #2, we need to login as bob, and find the flag2. Well, for switching us
 And then let’s  see where is flag2. Spoil alert, it is not in the current directory. So this is when the ‘find’ tool comes in handy. Lets try ‘find  /  flag2 2>/dev/null | grep flag2. “2>/dev/null” simply means when we encounter the error messages, redirect them to /dev/null, which acts kind of like a black hole.
 
 there we go, now we can use “cd” which stands for change directory to move ourself to the /home/bob directory. and with “cat” we can successfully obtain the flag.
+![linux] https://github.com/kiwids0220/TryHackMe-Linux-Challeneges/blob/master/t2.2(2).png
 
 #3 flag3 
 
